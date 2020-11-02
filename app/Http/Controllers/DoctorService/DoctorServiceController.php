@@ -32,7 +32,7 @@ class DoctorServiceController
       return back()->with(['status'=>'data created successfully']);
     }
 
-    public function read($id)
+    public function read( $id)
     {
        
        $doctorservices = $this->doctor_services->read($id);
